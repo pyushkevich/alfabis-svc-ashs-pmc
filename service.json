@@ -8,10 +8,10 @@
     "brain",
     "mtl"
   ],
-  "shortdesc": "Hippocampal subfield segmentation",
-  "longdesc": "Automatic segmentation of hippocampal subfields and MTL subregions in high-resolution T2-weighted MRI scans, using an atlas of older adults with and without mild cognitive impairment from the Penn Memory Center.",
-  "citation": "http://blah.blah.blah",
-  "url": "http://ashs.picsl.upenn.edu",
+  "shortdesc": "Hippocampal and MTL subfield segmentation in 3 Tesla T2-MRI",
+  "longdesc": "Automatic segmentation of hippocampal subfields and MTL subregions in high-resolution T2-weighted 3 Tesla MRI scans, using an atlas of older adults with and without mild cognitive impairment from the Penn Memory Center (PMC).",
+  "citation": "https://www.ncbi.nlm.nih.gov/pubmed/25181316",
+  "url": "https://sites.google.com/view/ashs-dox/mri-data/ashs-pmc-atlas-requirements",
   "tags": [
     {
       "name": "T2-MRI",
@@ -21,7 +21,7 @@
     },
     {
       "name": "T1-MRI",
-      "type": "AnatomicalImage",
+      "type": "OverlayImage",
       "hint": "Roughtly isotropic (e.g., 1x1x1mm^3) T1-weighted MRI scan of the whole brain.",
       "required": true
     },
